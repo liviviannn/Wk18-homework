@@ -4,13 +4,6 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.header{
-    min-height: 100vh;
-    width: 100%;
-    background-position:center;
-    background-size: cover;
-    position: absolute;
-}
 .container{
     width:100%;
     min-height:100vh;
@@ -55,19 +48,12 @@ nav{
     letter-spacing: 0.4px;
     
 }
-.menu ul li::after{
-    content:'';
-    width: 100%;
-    height:4px;
-    background:#CF0100;
-}
 
 .menu ul li:hover{
 color: #CF0100;
 }
-
 .Grid-container{
-    margin-top: -560px;
+    margin-top: -610px;
     display: grid;
     grid-template-rows:600px 600px 600px 600px;
     width: 100%;
@@ -76,267 +62,122 @@ color: #CF0100;
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-top: 5px;
 }
 
 .col-1{
+    flex-basis:14%;
     position:relative;
-    margin-top:-100px;
-    width: 650px;
+    margin-left:130px;
+    margin-top:-30px;
 
 }
 
-.col-1 h2{
-    font-size: 28px;
-    line-height:40px;
+.col-1 h3{
+    font-size: 21px;
+    line-height:35px;
     letter-spacing: 1px;
-    text-align: center;
-    padding-bottom: 30px;
 }
 
 .col-1 p{
-    font-size: 12px;
-    line-height:24px;
-    letter-spacing: 0.5px;
-    width: 84%;
-    margin-top:-17px;
-    text-align: center;
-    padding-top: 15px;
-    justify-self:center;
-}
-
-.social-links img{
-    height: 22px;
-    margin:12px;
-    margin-top: 30px;
-    cursor: pointer;    
-}
-
-.social-links{
-    text-align: center;
-    margin-left: 120px;
-}
-#Seemywork{
-    background-color:#231EC0;
-    border:none;
-    color:white;
-    padding:10px 20px;
     font-size: 13px;
+    letter-spacing: 0.5px;
+    margin-top:30px;
+    line-height: 25px;
+    color:#767676;
+}
+#bluebtn{
+    width:120px;
+    border:0;
+    padding:10px 5px;
+    outline: none;
+    background:#16A6B9;
+    color:white;
+    font-size:14px;
     cursor: pointer;
-    font-weight: bold;
-    float:right;
-    margin-top: 25px;
-
+    margin-top: 30px;
 }
 
-.box{
-    position: absolute;
-    align-content: center;
-    margin-top: -330px;
-    z-index:-1;
-    margin-left: -60px;
+.btnoutline{
+    height:35px;
+    width:116px;
+    margin-top: -35px;
+    margin-left: 5px;
+}
+#blue{
+    border:2px solid #16A6B9;
+    background-color: none;  
+}
+#bluebtn:hover{
+    background:#1794A5;
 
 }
-.arrow img{
-    width: 30px;
-    margin-top: 400px;
-    margin-left: -335px;
-    
-}
-
-.arrow{
-    animation: arrow 2s infinite;
-	-webkit-animation: arrow 2s infinite;
-	-moz-animation: arrow 2s infinite;
-	-o-animation: arrow 2s infinite;
-}
-
-@-webkit-keyframes arrow {
-	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}	
-	40% {-webkit-transform: translateY(-30px);}
-	60% {-webkit-transform: translateY(-15px);}
-}
- 
-@-moz-keyframes arrow {
-	0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
-	40% {-moz-transform: translateY(-30px);}
-	60% {-moz-transform: translateY(-15px);}
-}
- 
-@-o-keyframes arrow {
-	0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
-	40% {-o-transform: translateY(-30px);}
-	60% {-o-transform: translateY(-15px);}
-}
-@keyframes arrow {
-	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-	40% {transform: translateY(-30px);}
-	60% {transform: translateY(-15px);}
-}
-
-
-/*About me section start*/
-.row-2{
-    width: 65%;
+.col-2{
+    position: relative;
+    flex-basis:90%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-top: 20px;
-
 }
 
-.photo{
-    width: 320px;
-    margin-top: 140px;
+.col-2 .project{
+    width: 78%;
 }
 
-.row-2 .col-2{
-    width: 70%;
-    letter-spacing: 0.1px;
-    line-height: 30px;
-    font-size: 15px;
-    margin-right: 15px;
+#orangebtn{
+    width:120px;
+    border:0;
+    padding:10px 5px;
+    outline: none;
+    background:#F26444;
+    color:white;
+    font-size:14px;
+    cursor: pointer;
+    margin-top: 30px;
 }
 
-/*About me section finish*/
-
-/*My skills section start*/
-
-.Myskills{
-    margin-top: 20px;
-}
-.Myskills h4{
-    align-content: center;
-    letter-spacing:0.5px;
-    margin-bottom: 20px;
-    text-align: center;
-
+#orangebtn:hover{
+    background:#E45C3D;
 }
 
-.Myskills img{
-    display: flex;
-    align-content: center;
-    height:20px ;
+#navybtn{
+    width:120px;
+    border:0;
+    padding:10px 5px;
+    outline: none;
+    background:#2EA3BF;
+    color:white;
+    font-size:14px;
+    cursor: pointer;
+    margin-top: 30px;
 }
 
-.row-3{
-    display: flex;
-    margin-top: -20px;
+#navybtn:hover{
+    background:#2A94AD;
 }
 
-.row-3 .skill-col{
-    flex-basis: 31%;
-    margin-bottom: 5%;
-    padding: 35px;
-
-
-}
-
-.flex-item, .front, .back {
-	width: 17rem;
-	height: 17rem;
-    background-color: transparent;
-    display: flex;
-}
-
-.front {
-	box-sizing: border-box;
-	padding: 2rem;
-    padding-top: 8rem;
-	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .15);*/
-    background-color: white;
-	color: #FCDB62;
-	text-align: center;
-    font-size: 17px;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-
-}
-.back{
-    box-sizing: border-box;
-	padding: 3rem;
-	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .15);*/
-	font-size: 13px;
-	color: black;
-	text-align: center;
-    letter-spacing: 0.1px;
-    line-height:35px;
-    
-}
-
-.flex-item{
-	position: relative;
-
-}
-.front, .back {
-	position: absolute;
-	-webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    transition: transform .8s;
-}
-.back {
-	transform: rotateY(180deg);
-}
-.flex-item:hover .front {
-	transform: rotateY(-180deg);
-}
-.flex-item:hover .back {
-	transform: rotateY(0deg);
-}
-
-/*My skills section finish*/
-
-/*My hobbies section start*/
-.hobbies{
-    margin-top: -40px;
-}
-.row-4{
-    width: 65%;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-
-}
-
-.row-4 img{
-    width: 200px;
-    padding: 25px;
-}
-
-.row-4 .col-1{
-    margin-top: 0px;
+#yellowbtn{
+    width:120px;
+    border:0;
+    padding:10px 5px;
+    outline: none;
+    background:#FFD968;
+    color:white;
+    font-size:14px;
+    cursor: pointer;
+    margin-top: 30px;
 }
 
 
-.heading h4{
-    align-content: center;
-    letter-spacing:0.5px;
-    margin-bottom: 20px;
-    text-align: center;
+#yellowbtn:hover{
+    background:#F0CC62;
 }
-.heading{
-    margin-top: -10%;
-}
-
-.heading img{
-    display: flex;
-    align-content: center;
-    height:20px ;
-    margin-bottom: 20px;
-}
-
-/*My hobbies section finish*/
-
-
-
-/*footer start*/
 
 .footer{
-    height:50%;
-    width: 100vw;
+    height:260px;
     background-color: #EFEFEF;
-    position: relative;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .footertitle {
@@ -370,14 +211,10 @@ color: #CF0100;
     letter-spacing: 0.5px;
     display: flex;
     position: relative;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
-/*footer finish*/
-
-
 @media only screen and (max-width:600px){
-
     nav ul{
         width:80%;
         position: absolute;
@@ -405,115 +242,40 @@ color: #CF0100;
         display: none;
     }
 
-.box{
-    display: none;
+    .row{
+        flex-direction: column-reverse;
+        margin:50px 0;
+    }
+    .col-1{
+        width: 50%;
+        margin-left: 55px;
+    }
+    .col-2{
+        flex-basis: 100%;
+        margin-bottom: 50px;
+    }
+
+
+    .col-1 h3{
+        font-size: 18px;
+
+    }
+
+
+
+    .copyright{
+        margin-top: 40px;
+    }
+    .button-footer{   
+        margin-top: -35px;
+
+    
+    }
+    .footer{
+        height:260px;
+        background-color: #EFEFEF;
+        margin-top: 20px;
+    }
+    
 
 }
-
-.arrow{
-    display: none;
-}
-.col-1{
-    width: 250px;
-    margin-top:-50px;
-
-}
-
-.col-1 h2{
-    font-size: 22px;
-    line-height:40px;
-    letter-spacing: 1px;
-    text-align: center;
-    padding-bottom: 30px;
-}
-
-.col-1 p{
-    font-size: 12px;
-    line-height:25px;
-    letter-spacing: 0.5px;
-    margin-top:-17px;
-    text-align: center;
-    padding-top: 15px;
-    justify-self:center;
-}
-
-.social-links{
-    text-align: center;
-    margin-left: 15px;
-    display: none;
-}
-
-#Seemywork{
-    background-color:#231EC0;
-    border:none;
-    color:white;
-    padding:10px 20px;
-    font-size: 13px;
-    cursor: pointer;
-    font-weight: bold;
-    margin-top: 25px;
-    margin-right: 65px;
-
-}
-
-.row-2{
-    flex-direction: column;
-
-}
-
-.photo{
-    width: 200px;
-    margin-top: 20px;
-    justify-content: center;
-    margin-left: 25px;
-
-
-}
-.row-2 .col-2{
-    align-items: center;
-    font-size: 13px;
-    text-align: center;
-    margin-top: 10px;
-    line-height: 25px;
-    letter-spacing: 0.4px;
-}
-.Myskills h4{
-    margin-top: 300px;
-
-}
-.row-3{
-    flex-direction: column;
-}
-
-.row-3{
-    padding: 0px;
-}
-
-.hobbies{
-    margin-top: 900px;
-}
-
-.hobby-1{
-    align-items: center;
-}
-.row-4{
-    flex-direction: column;
-    display: grid;
-}
-
-.copyright{
-    margin-top: 30px;
-}
-.button-footer{   
-    margin-top: -35px;
-
-
-}
-.footer{
-    height:260px;
-    background-color: #EFEFEF;
-    margin-top: 1400px;    
-}
-
-}
-

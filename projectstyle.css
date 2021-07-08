@@ -4,13 +4,6 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.header{
-    min-height: 100vh;
-    width: 100%;
-    background-position:center;
-    background-size: cover;
-    position: relative;
-}
 .container{
     width:100%;
     min-height:100vh;
@@ -55,17 +48,10 @@ nav{
     letter-spacing: 0.4px;
     
 }
-.menu ul li::after{
-    content:'';
-    width: 100%;
-    height:4px;
-    background:#CF0100;
-}
 
 .menu ul li:hover{
 color: #CF0100;
 }
-
 .Grid-container{
     margin-top: -610px;
     display: grid;
@@ -102,6 +88,7 @@ color: #CF0100;
     line-height: 25px;
     color:#767676;
 }
+
 #bluebtn{
     width:120px;
     border:0;
@@ -139,6 +126,9 @@ color: #CF0100;
     width: 78%;
 }
 
+.project:hover{
+    transform: scale(1.05);
+}
 #orangebtn{
     width:120px;
     border:0;
