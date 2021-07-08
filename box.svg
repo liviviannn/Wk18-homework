@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1149" height="676" viewBox="0 0 1149 676">
+  <defs>
+    <filter id="Rectangle_23" x="31" y="34" width="1118" height="642" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_22" x="16" y="16" width="1118" height="642" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_20" x="0" y="0" width="1118" height="642" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="box" transform="translate(-401 -251)">
+    <g transform="matrix(1, 0, 0, 1, 401, 251)" filter="url(#Rectangle_23)">
+      <rect id="Rectangle_23-2" data-name="Rectangle 23" width="1088" height="612" transform="translate(46 46)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 401, 251)" filter="url(#Rectangle_22)">
+      <rect id="Rectangle_22-2" data-name="Rectangle 22" width="1088" height="612" transform="translate(31 28)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 401, 251)" filter="url(#Rectangle_20)">
+      <rect id="Rectangle_20-2" data-name="Rectangle 20" width="1088" height="612" transform="translate(15 12)" fill="#fff"/>
+    </g>
+    <rect id="Rectangle_4" data-name="Rectangle 4" width="1088" height="57" transform="translate(416 263)"/>
+    <text id="Welcome_" data-name="Welcome!" transform="translate(503 299)" fill="#fff" font-size="20" font-family="OpenSans, Open Sans" letter-spacing="0.03em"><tspan x="-47.881" y="0">Welcome!</tspan></text>
+    <path id="Icon_awesome-heart" data-name="Icon awesome-heart" d="M19.744,3.556a5.84,5.84,0,0,0-7.969.581L10.933,5l-.841-.867a5.84,5.84,0,0,0-7.969-.581A6.133,6.133,0,0,0,1.7,12.435l8.264,8.533a1.339,1.339,0,0,0,1.935,0l8.264-8.533a6.129,6.129,0,0,0-.419-8.879Z" transform="translate(1448 279.686)" fill="#fff"/>
+    <rect id="Rectangle_24" data-name="Rectangle 24" width="16" height="57" transform="translate(1504 279)"/>
+    <rect id="Rectangle_25" data-name="Rectangle 25" width="15" height="57" transform="translate(1520 297)"/>
+  </g>
+</svg>
